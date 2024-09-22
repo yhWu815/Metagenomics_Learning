@@ -14,18 +14,40 @@
 为了得到这些DNA的序列，我们选择了高通量测序，例如illumina的二代测序，Pacbio和Nanopore的三代测序。现在我们一般花钱让专业的测序公司帮我们进行测序，从公司那里得到原始测序数据。
 
 大家可能已经了解过了二代测序和三代测序的原理，不了解原理的读者可以去B站或者Youtube搜索一下illumina公司制作的二代测序原理视频。
-
+> [!TIP]
 > B站：[illumina测序原理](https://www.bilibili.com/video/BV1W44y1373N)，[Nanopore测序原理](https://www.bilibili.com/video/BV1kL4y1i7Jx)，[Pacbio测序原理](https://www.bilibili.com/video/BV1iL4y1i7Tf)
+
+> [!TIP]
 > Youtube: [illumina测序原理](https://www.youtube.com/watch?v=fCd6B5HRaZ8)，[Nanopore测序原理](https://www.youtube.com/watch?v=RcP85JHLmnI)，[Pacbio测序原理](https://www.youtube.com/watch?v=_lD8JyAbwEo)
 
+
 如果读者英文听不太明白，可以去关注陈巍老师的频道。
->Bilibili: [陈巍学基因](https://space.bilibili.com/17326115)
-Youtube: [David Chen](https://www.youtube.com/@davidchen4753)
+> [!TIP]
+> Bilibili: [陈巍学基因](https://space.bilibili.com/17326115) 
+> Youtube: [David Chen](https://www.youtube.com/@davidchen4753)
 
 上述视频看完我们就对高通量测序有了初步了解，要想进行数据分析还要深入了解其中的步骤。
-::: info 提示
-这是为了在得到原始测序数据之后进行质量控制时，让我们知道要去除哪些序列。
-:::
+
+<!-- 
+> [!NOTE]
+> 这是为了在得到原始测序数据之后进行质量控制时，让我们知道要去除哪些序列。
+
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions. 
+上述是如何写github风格的alert-->
+
 ## Quality Control: 去除糟粕，保留精华
 
 
